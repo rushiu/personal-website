@@ -16,7 +16,7 @@
     font-size: 17px;
   }
   
-  /* Change the color of links on hover */
+  /* Change the colo4r of links on hover */
   .topnav a:hover {
     color: #000000;
   }
@@ -32,3 +32,14 @@
     text-align: center;
   }
   
+  .facepic {
+    width: 300px;
+    height: 375px;
+    padding-left: 40px;
+    padding-right: 40px;
+    float: left;
+  }
+
+  .paratext {
+    font-family: 'Jost', sans-serif;
+  }
