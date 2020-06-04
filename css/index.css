@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Jost&family=Open+Sans+Condensed:wght@300&family=Titillium+Web&display=swap');
 /* Add a black background color to the top navigation */
-.topnav {
+  .topnav {
     font-family: 'Jost', sans-serif;
     background-color: #3295a8;
     overflow: hidden;
@@ -8,7 +8,7 @@
   
   /* Style the links inside the navigation bar */
   .topnav a {
-    float: Left;
+    float: left;
     color: #f2f2f2;
     text-align: center;
     padding: 14px 16px;
