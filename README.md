@@ -1,0 +1,1 @@
+This personal website was built with React & Vite.
