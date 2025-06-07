@@ -4,7 +4,7 @@ export default function Hero() {
       id="home"
       className="relative min-h-screen flex items-center justify-center text-center px-4"
       style={{
-        backgroundImage: `url(/abstract.svg)`,
+        backgroundImage: `url(./public/abstract.svg)`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat',
@@ -19,7 +19,7 @@ export default function Hero() {
         </p>
         <div className="mt-6 space-x-6">
           <a
-            href="/AarushiUpadhyaya_Resume_Online.pdf"
+            href="./public/AarushiUpadhyaya_Resume_Online.pdf"
             className="inline-block border border-black bg-transparent hover:font-bold hover:border-2 text-black px-6 py-3 rounded-full transition"
           >
             Resume
