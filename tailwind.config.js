@@ -10,7 +10,7 @@ export default {
           sans: ['Poppins', 'sans-serif'],
         },
         backgroundImage: {
-          'hero-pattern': "url('/abstract.svg')",
+          'hero-pattern': `url('/personal-website/abstract.svg')`,
         },
       },
     },
