@@ -9,6 +9,9 @@ export default {
         fontFamily: {
           sans: ['Poppins', 'sans-serif'],
         },
+        backgroundImage: {
+          'hero-pattern': "url('/abstract.svg')",
+        },
       },
     },
     plugins: [],

@@ -2,13 +2,7 @@ export default function Hero() {
   return (
     <section
       id="home"
-      className="relative min-h-screen flex items-center justify-center text-center px-4"
-      style={{
-        backgroundImage: `url(./public/abstract.svg)`,
-        backgroundSize: 'cover',
-        backgroundPosition: 'center',
-        backgroundRepeat: 'no-repeat',
-      }}
+      className="relative min-h-screen flex items-center justify-center text-center px-4 bg-hero-pattern bg-cover bg-center bg-no-repeat"
     >
       <div className="pt-40">
         <h1 className="text-5xl md:text-6xl font-extrabold bg-clip-text text-black">
@@ -19,13 +13,17 @@ export default function Hero() {
         </p>
         <div className="mt-6 space-x-6">
           <a
-            href="./public/AarushiUpadhyaya_Resume_Online.pdf"
+            href="/AarushiUpadhyaya_Resume_Online.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-block border border-black bg-transparent hover:font-bold hover:border-2 text-black px-6 py-3 rounded-full transition"
           >
             Resume
           </a>
           <a
             href="mailto:aarushi.e.upadhyaya@gmail.com"
+            target="_blank" 
+            rel="noopener noreferrer" 
             className="inline-block bg-transparent hover:font-bold hover:border-2 border border-black text-black px-6 py-3 rounded-full transition"
           >
             Email Me

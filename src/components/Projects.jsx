@@ -18,7 +18,14 @@ export default function Projects() {
   return (
     <section id="projects" className="py-2 bg-white text-center">
       <h2 className="text-4xl font-bold mb-8 text-black">Projects</h2>
-      <p className="text-gray-800">This Section is in progress!</p>
+      <p className="text-gray-800">
+        This Section is under construction! Take a look at my 
+        <a href="/AarushiUpadhyaya_Resume_Online.pdf" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline"> Resume </a>
+          and 
+          <a href="https://github.com/rushiu/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline"> GitHub </a>
+          in the meantime!
+        </p>
+  
       {projectList.map((project, index) => (
           <ProjectCard
             key={index}

@@ -11,7 +11,7 @@ function ExperienceCard ({title, company, date, summary, details}) {
             <p className="mt-2 text-back">{summary}</p>
             <button
                 onClick={() => setOpen(!open)}
-                className="mt-2 text-blue-800 hover:underline text-sm"
+                className="mt-2 text-blue-600 hover:underline text-sm"
             >
                 {open ? 'Hide details ▲' : 'Show details ▼'}
             </button>
@@ -50,8 +50,6 @@ export default function Experience() {
                 'Spearheaded A/B testing infrastructure to automate experimentation, reducing development time from 1 week to 1 hour; Implemented experiments in Scala, Java, and Python',
                 'Dedicated 20% time to ZipRecruiter’s Data Guild, contributing infrastructure for company-wide data governance',
                 'Mentored engineers, led knowledge-sharing sessions, and improved documentation to foster collaboration and streamline workflows; Participated in on-call rotations',
-
-                
               ]}
             />
           </ol>

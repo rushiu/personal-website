@@ -8,6 +8,8 @@ export default function Contact() {
       <div className="flex items-center justify-center gap-8 pt-4">
         <a
         href="mailto:aarushi.e.upadhyaya@gmail.com"
+        target="_blank" 
+        rel="noopener noreferrer" 
         className="inline-flex text-blue-600 hover:text-blue-800 transition"
         >
           <FiMail size={40} />
@@ -15,6 +17,8 @@ export default function Contact() {
 
         <a
         href="https://www.linkedin.com/in/aarushi-upadhyaya/"
+        target="_blank" 
+        rel="noopener noreferrer" 
         className="inline-flex pb-1 text-blue-600 hover:text-blue-800 transition"
         >
           <FiLinkedin size={40} />
@@ -22,6 +26,8 @@ export default function Contact() {
 
         <a
         href="https://github.com/rushiu/"
+        target="_blank" 
+        rel="noopener noreferrer" 
         className="inline-flex pb-1 text-blue-600 hover:text-blue-800 transition"
         >
           <FiGithub size={40} />
