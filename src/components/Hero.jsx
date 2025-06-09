@@ -13,7 +13,7 @@ export default function Hero() {
         </p>
         <div className="mt-6 space-x-6">
           <a
-            href="/personal-website/AarushiUpadhyaya_Resume_Online.pdf"
+            href="/AarushiUpadhyaya_Resume_Online.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block border border-black bg-transparent hover:font-bold hover:border-2 text-black px-6 py-3 rounded-full transition"
