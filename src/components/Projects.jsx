@@ -16,7 +16,7 @@ export default function Projects() {
   ];
   
   return (
-    <section id="projects" className="py-2 bg-white text-center">
+    <section id="projects" className="py-10 mt-10 bg-white text-center">
       <h2 className="text-4xl font-bold mb-8 text-black">Projects</h2>
       <p className="text-gray-800">
         This Section is under construction! Take a look at my 
