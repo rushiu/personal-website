@@ -39,7 +39,7 @@ export default function Experience() {
           <ol className="relative border-l border-gray-300 space-y-8">
             <ExperienceCard
               title="Software Engineer"
-              company="ZipRecruiter"
+              company="ZipRecruiter Inc."
               date="Aug 2023 — Present"
               summary="Led multiple backend initiatives around messaging scale, experimentation, and SMS infrastructure."
               details={[
@@ -50,6 +50,49 @@ export default function Experience() {
                 'Spearheaded A/B testing infrastructure to automate experimentation, reducing development time from 1 week to 1 hour; Implemented experiments in Scala, Java, and Python',
                 'Dedicated 20% time to ZipRecruiter’s Data Guild, contributing infrastructure for company-wide data governance',
                 'Mentored engineers, led knowledge-sharing sessions, and improved documentation to foster collaboration and streamline workflows; Participated in on-call rotations',
+              ]}
+            />
+
+            <ExperienceCard
+              title="Software Engineer Intern"
+              company="Meta"
+              date="May 2022 — Aug 2022"
+              summary="Developed an automated ML model monitoring system and optimized ML model performance."
+              details={[
+                'Facebook App Notifications ML Team',
+                'Implemented an automated ML model performance monitoring system using recurring data pipelines in Python, also tracking track model-feature lineage and feature statistics',
+                'Trained ML models to optimize infrastructure performance while maintaining existing ML prediction metrics',
+              ]}
+            />
+
+            <ExperienceCard
+              title="Summer Analyst"
+              company="Accenture Consulting"
+              date="Jun 2021 — Aug 2021"
+              summary=""
+              details={[
+                'Integrated Adobe’s Real-Time Customer Data Platform into Client’s existing Adobe suite systems to improve customer personalization - conducted Product Requirements-gathering & Design phase, identified AWS data sources & data movement techniques, created architecture diagrams',
+                'Analyzed, curated Client’s revenue data and built 15+ Tableau Dashboards to highlight trends and insights',
+              ]}
+            />
+
+            <ExperienceCard
+              title="Data Science/Full Stack Development Intern"
+              company="Entefy Inc."
+              date="May 2020 — Aug 2020"
+              summary=""
+              details={[
+                'Entefy is an advanced AI and process automation company. Organizations use Entefy’s multisensory AI platform to accelerate their digital transformation to dramatically improve everything from knowledge management to process automation, cybersecurity, data privacy, customer analytics, forecasting, and more.',
+              ]}
+            />
+
+            <ExperienceCard
+              title="Software Intern"
+              company="Hexaware Technologies"
+              date="Jul 2017 — Aug 2017"
+              summary=""
+              details={[
+                'Coded an employee survey website using Django, Python, HTML, and SQLite',
               ]}
             />
           </ol>
